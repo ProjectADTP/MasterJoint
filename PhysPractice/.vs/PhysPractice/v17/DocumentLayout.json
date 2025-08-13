@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\Documents\\GitHub\\MasterJoint\\PhysPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E143A43-82E0-4C95-BA70-1EB5CEC92593}|Assembly-CSharp.csproj|c:\\users\\andrey\\documents\\github\\masterjoint\\physpractice\\assets\\scripts\\catapult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E143A43-82E0-4C95-BA70-1EB5CEC92593}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\catapult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E143A43-82E0-4C95-BA70-1EB5CEC92593}|Assembly-CSharp.csproj|c:\\users\\andrey\\documents\\github\\masterjoint\\physpractice\\assets\\scripts\\swing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E143A43-82E0-4C95-BA70-1EB5CEC92593}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Catapult.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Documents\\GitHub\\MasterJoint\\PhysPractice\\Assets\\Scripts\\Catapult.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Catapult.cs",
+              "ToolTip": "C:\\Users\\Andrey\\Documents\\GitHub\\MasterJoint\\PhysPractice\\Assets\\Scripts\\Catapult.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Catapult.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:20:59.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Swing.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Documents\\GitHub\\MasterJoint\\PhysPractice\\Assets\\Scripts\\Swing.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Swing.cs",
+              "ToolTip": "C:\\Users\\Andrey\\Documents\\GitHub\\MasterJoint\\PhysPractice\\Assets\\Scripts\\Swing.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Swing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T11:21:02.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

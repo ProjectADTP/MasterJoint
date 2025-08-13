@@ -1,23 +1,28 @@
 using UnityEngine;
 
+[RequireComponent(typeof(HingeJoint))]
 public class Swing : MonoBehaviour
 {
-    [SerializeField] private HingeJoint _hingeJoint;
-    [SerializeField] private KeyCode _swingKey = KeyCode.Space;
+    [SerializeField] private InputReader _inputReader;
     [SerializeField] private float _swingForce = 100f;
 
-    void Start()
+    private HingeJoint _hingeJoint;
+
+    private void Awake()
     {
-        if (_hingeJoint == null)
-            _hingeJoint = GetComponent<HingeJoint>();
+        _hingeJoint = GetComponent<HingeJoint>();
     }
 
-    void Update()
+    private void OnEnable()
     {
-        if (Input.GetKeyDown(_swingKey))
-        {
-            ApplySwing();
-        }
+        if (_inputReader != null)
+            _inputReader.SwingPressed += ApplySwing;
+    }
+
+    private void OnDisable()
+    {
+        if (_inputReader != null)
+            _inputReader.SwingPressed -= ApplySwing;
     }
 
     private void ApplySwing()
